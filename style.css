@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+} */
+li {
+  list-style: none;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  background-color:#0078d4;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Alegreya', serif;
+}
+a:hover {
+  color: #000;
+}
+p {
+  font-family: 'Alegreya', serif;
+}
+
+nav {
+  /* background-color: #ff0000; */
+  gap: 3px;
+}
+.sticky {
+  position: fixed;
+  top: 2px;
+  width: 98%;
+  z-index: 100;
+}
+
+.title-name {
+  /* background-color: #000; */
+  color: #fff;
+  border: solid #000 2px;
+  border-radius: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  color: #000;
+  /* color: #D4AF37;
+  border: solid #d4af37 2px; */
+  text-align: center;
+  padding: 5px;
+  width: 98%;
+  margin: auto;
+}
+
+.container {
+  width: 98%;
+  margin: 5px auto;
+  /* box-shadow: 0 0 7px #222; */
+}
+#navUnidades {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  padding: 1em 1.5em;
+  border: solid #000 2px;
+  color: #fff;
+  /* color: #D4AF37;
+  border: solid #d4af37 2px; */
+  width: 100%;
+  background-color: #000;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn:focus {
+  background-color: #0078d4;
+  color: #fff;
+}
+.content {
+  position: relative;
+}
+.content_text {
+  position: absolute;
+  background-color: #fff;
+  border: solid #000 2px;
+  padding: 32px;
+  width: 100%;
+  height: fit-content;
+  overflow: auto;
+  transform: scale(0);
+  transition: 0.3s;
+
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.title {
+  margin: 0;
+}
+.block {
+  transform: scale(1);
+  z-index: 10;
+}
+
+.unidad p{
+  color: #ff0000;
+  font-weight: bold;
+}
+.actNum, h4 {
+  color: #007;
+  font-family: 'Lobster Two', cursive;
+  font-size: 20px;
+}
+.title {
+  color: #ff0000;
+  font-family: 'Lobster Two', cursive;
+  font-size: 28px;
+}
+.footer {
+  background-color: #4682B4;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
