@@ -33,3 +33,10 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+//Cambiar de a modo oscuro
+// const boton = document.getElementById('boton');
+// boton.addEventListener('click', ()=> {
+//   let darkMode = document.body;
+//   darkMode.classList.toggle('dark-mode');
+// })
