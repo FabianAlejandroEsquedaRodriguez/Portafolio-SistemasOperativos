@@ -35,8 +35,19 @@ function myFunction() {
 }
 
 //Cambiar de a modo oscuro
-// const boton = document.getElementById('boton');
-// boton.addEventListener('click', ()=> {
-//   let darkMode = document.body;
-//   darkMode.classList.toggle('dark-mode');
-// })
+// function switchMode() {
+//   let moon = document.getElementById("moon");
+  
+
+//   if(moon.className=="moon") { //Dark Mode
+//       moon.className = "sun";
+//       document.body.style.backgroundColor = "#141d26";
+//       document.body.style.color = "#fff";
+//   }
+
+//   else {//Light Mode
+//       moon.className = "moon";
+//       document.body.style.backgroundColor = "#fff";
+//       document.body.style.color = "#000";
+//   }
+// }

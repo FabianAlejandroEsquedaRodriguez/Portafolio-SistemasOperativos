@@ -6,10 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* html {
-  overflow-x: hidden;
-  margin-right: calc(-1 * (100vw - 100%));
-} */
+body {
+  transition: 0.5s;
+}
 li {
   list-style: none;
   font-weight: bold;
@@ -55,6 +54,7 @@ nav {
   width: 98%;
   margin: auto;
 }
+
 .cambioClase {
   display: flex;
   justify-content: space-evenly;
@@ -97,13 +97,14 @@ nav {
 }
 .content {
   position: relative;
+  width: 102%;
 }
 .content_text {
   position: absolute;
   background-color: #fff;
   border: solid #000 2px;
   padding: 32px;
-  width: 100%;
+  width: 98%;
   height: fit-content;
   overflow: auto;
   transform: scale(0);
@@ -141,12 +142,40 @@ nav {
   margin-top: 5px;
 }
 
-/*Código para despues hacer un toggle en javascript
-y cambiar de tema a orscuro*/
-/* .dark-mode {
-  background-color: #000;
-  color: #fff;
-  transition: .5s;
+/*Modo oscuro*/
+/* .night-toggle {
+  width: 33px;
+  height: 33px;
+  right: 20px;
+  top: 20px;
+  position: absolute;
+}
+.night-toggle:hover {
+  cursor: pointer;
+}
+.moon {
+  background-color: transparent;
+  box-shadow: -6px 1px 0 3px #275e8e;
+  border-left: 3px solid #27476d;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+  margin-top: 0px;
+  transition: 1s;
+}
+.sun {
+  background-color: #fdd462;
+  box-shadow: 2px 0px 0px 1px #d19c29;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  transition: 1s;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
 } */
 
 @media (max-width: 450px) {
