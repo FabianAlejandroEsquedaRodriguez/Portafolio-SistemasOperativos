@@ -1,0 +1,18 @@
+@media (max-width: 720px) {
+    #navUnidades {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2px;
+    }
+    
+    .btn {
+      padding: 0.5em .75em;
+      color: #fff;
+      font-size: 14px;
+  
+      /* border: solid #000 2px; */
+      /* color: #D4AF37;
+      border: solid #d4af37 2px; */
+    }
+  }
