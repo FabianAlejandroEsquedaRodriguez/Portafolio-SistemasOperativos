@@ -1,4 +1,4 @@
-h3 {
+h3:not(header > h3) {
   font-size: 20px;
   color:rgb(70, 116, 1);
   font-family: 'Lobster Two', cursive;
